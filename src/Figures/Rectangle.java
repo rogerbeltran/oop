@@ -1,5 +1,7 @@
 
-package Figures;
+package figures;
+
+import org.w3c.dom.css.Rect;
 
 public class Rectangle {
     private int width;
@@ -19,6 +21,11 @@ public class Rectangle {
         double perimeter = (width *2 ) + (height * 2);
         System.out.println("Rectangle Perimeter" + perimeter + "[cm]");
     }
+    public void printArea(){
+        double area = width * height;
+        System.out.println("Rectangle Area" + area + "[cm]");
+    }
+
     public int getWidth() {
         return width;
     }
