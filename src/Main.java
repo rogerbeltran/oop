@@ -3,7 +3,7 @@ public static void main(String[] args) {
     //printSquare(6);
 
 
-    printTriangle(3);
+    printTriangle(4);
     printTriangle(5);
     printTriangle(7);
 
@@ -20,4 +20,3 @@ public static void printTriangle(int T) {
         System.out.println();
     }
 }
-    
